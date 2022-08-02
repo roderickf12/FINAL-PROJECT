@@ -1,0 +1,62 @@
+
+
+
+
+
+header{
+
+    text-align: left;
+    align-items:inherit
+}
+
+
+
+.logo{
+
+background-color: black ;
+box-sizing: border-box;
+
+}
+
+.nav {
+
+flex-direction:right;
+    text-align: right;
+    color: black;
+
+
+    
+}
+
+
+a:visited{
+    
+    color: white;
+}
+
+
+.video
+
+{
+display: flex;
+justify-content: center;
+
+}
+
+
+html { background: url(./images/pikes.jpg) 
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.icons {
+
+padding: 20px;
+align-items: center;
+flex-direction: row;
+align-content: center;
+align-items: center;
+}
