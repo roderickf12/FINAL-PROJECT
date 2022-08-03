@@ -1,31 +1,27 @@
 
+.header {
 
 
-
-
-header{
-
-    text-align: left;
-    align-items:inherit
+flex-direction: row;
 }
 
 
 
-.logo{
+.logo {
 
-background-color: black ;
-box-sizing: border-box;
+background-color: rgba(0, 0, 0, 0.656);
+background-size: contain;
+background-size: auto;
+
 
 }
 
 .nav {
 
-flex-direction:right;
+flex-direction:row;
     text-align: right;
     color: black;
-
-
-    
+  font-family: 'Courier New', Courier, monospace;    
 }
 
 
@@ -34,6 +30,11 @@ a:visited{
     color: white;
 }
 
+a{
+
+color: white;
+
+}
 
 .video
 
@@ -59,4 +60,52 @@ align-items: center;
 flex-direction: row;
 align-content: center;
 align-items: center;
+text-align: center;
+}
+
+.about {
+
+
+  color: white;
+background-blend-mode: color-burn;
+text-align: center;
+flex: content;
+background-color: rgba(0, 0, 0, 0.758);
+}
+
+.footerlogo {
+
+ justify-content: right;
+ flex: content;
+ text-align: center;
+}
+
+.formtitle {
+
+
+  margin-top: 20%;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.44);
+}
+
+.form {
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.44);
+  text-align: center;
+}
+
+.Showtitle {
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.582);
+  text-align: center;
+}
+
+.shows {
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.582);
+  text-align: center;
 }
